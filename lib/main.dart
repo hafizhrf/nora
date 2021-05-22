@@ -9,8 +9,6 @@ void main() async {
   String initialRoute = AppPages().initialPage;
   runApp(
     GetMaterialApp(
-      theme:
-          ThemeData(primarySwatch: Colors.purple, primaryColor: Colors.purple),
       title: "Application",
       initialRoute: initialRoute,
       getPages: AppPages.routes,

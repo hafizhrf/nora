@@ -14,13 +14,13 @@ Widget bottomNavi() {
           icon: Icon(
             Icons.play_arrow,
             size: 40,
-            color: Colors.purple,
+            color: Colors.deepPurple,
           ),
           label: 'Play',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.skip_next),
           label: 'Next',
-        )
+        ),
       ]);
 }
